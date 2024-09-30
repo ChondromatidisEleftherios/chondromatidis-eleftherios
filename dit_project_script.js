@@ -1,3 +1,4 @@
+window.scrollTo(0,0);
 let x=0;
 let txt= "Welcome to the official website of Eleftherios Chondromatidis!";
 let title;
