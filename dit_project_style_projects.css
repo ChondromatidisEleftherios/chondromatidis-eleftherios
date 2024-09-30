@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@media (max-width: 768px) {
+.container {
+      display: flex;
+	   flex-direction: column-reverse;
+	   height:auto;
+	   flex-direction: row;
+	   opacity: 90% !important;
+   
+}
+
+a 
+{
+     font-size:26px !important;
+	   display: flex;
+}
+	
+.left_sideH, .right_sideH
+	{
+		gap: 12px !important;
+	}
+
+.logo 
+{
+	     display: flex;
+	     height: 56px;
+      align-self: center; 
+	   justify-content: center;
+}
+}
+
+
+
+
+
+body
+{
+	margin:0px;
+	background-image: linear-gradient(#1fb580,teal,#060a1a);
+	color:white;
+	font-family: 'jersey 10';
+}
+
+p
+{
+	font-size: 32px;
+}
+
+.title_of_projects
+{
+	margin-top: 300px;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'jersey 10';
+}
+
+.container
+{	display: flex;
+	background-color: #1fb588;
+	top:0;
+	position: sticky;
+	height: 64px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	opacity: 97%;
+	z-index: 1; 
+}
+
+.left_sideH
+{	
+	display: flex;
+	justify-content: center;
+	gap: 190px;
+}
+
+.right_sideH
+{
+	display: flex;
+	gap: 190px;
+	justify-content: center;
+}
+
+.link1,.link2,.link3,.link4, a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	font-style: normal;
+	font-family: 'jersey 10';
+}
+
+.link4{
+  background-color: #1fb588;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.links_down {
+  display: none;
+  position: absolute;
+  background-color: #179669;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.links_down a {
+  color: white;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 28px;
+}
+
+.links_down a:hover {background-color: black}
+
+.links_dr:hover .links_down {
+  display: block;
+}
+
+.logo
+{
+	display:flex;
+	justify-content: center;
+}
+
+img
+{
+	height:60px;
+}
+
+.cpp
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 400px;
+	font-size: 60px;
+}
+
+.jvs
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 250px;
+	font-size: 60px;
+}
+
+.python
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 250px;
+	font-size: 60px;
+}
+
+.assembly
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 250px;
+	font-size: 60px;
+}
+
+.fade-in-section 
+{
+      opacity: 0;
+      transform: translateY(60px); /* Start slightly off-screen */
+      transition: opacity 1.3s ease-out, transform 1.3s ease-out;
+      visibility: hidden; /* Ensure it's hidden before it enters the viewport */
+}
+
+.fade-in-section.is-visible 
+{
+      opacity: 1;
+      transform: translateY(0); /* Move to original position */
+      visibility: visible; /* Make it visible when it's in the viewport */
+}
+
+.project_images_container
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 35px;
+	position: relative;
+}
+
+.ntomatotimer img
+{
+	height: 330px;
+	width: 500px;
+	border: 7px solid #1fb580;
+	object-position: 80% 0;"
+	object-fit: cover;
+}
+
+.jcalculator img 
+{
+	height: 430px;
+	width: 400px;
+	border: 7px solid #1fb580;
+	object-position: 80% 0;"
+	object-fit: cover;
+	margin-right: 5px;
+}
+
+.rps img
+{
+	height: 280px;
+	width: 540px;
+	border: 7px solid #1fb580;
+	object-position: 80% 0;"
+	object-fit: cover;
+}
+
+.mtc img
+{
+	height: 350px;
+	width: 510px;
+	border: 7px solid #1fb580;
+	object-position: 80% 0;"
+	object-fit: cover;
+}
+
+.bindec img
+{
+	height: 330px;
+	width: 410px;
+	border: 7px solid #1fb580;
+	object-position: 80% 0;"
+	object-fit: cover;
+}
+
+.image_text {
+opacity: 0.9;
+ background-color: #1fb580;
+ color: white;
+ font-size: 24px;
+ padding: 10px 15px;
+ border-radius: 20px;
+}
+
+.ntomatotimer, .jcalculator, .rps, .mtc, .bindec {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+}
+
+.text_fit {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project_ntom:hover .ntomatotimer, .project_jcalc:hover .jcalculator, .project_rps:hover .rps, .project_mtc:hover .mtc, .project_bindec:hover .bindec {
+  opacity: 0.4;
+}
+
+.project_ntom:hover .text_fit, .project_jcalc:hover .text_fit, .project_rps:hover .text_fit, .project_mtc:hover .text_fit, .project_bindec:hover .text_fit{
+  opacity: 1;
+}
+
+.project_ntom, .project_jcalc, .project_rps, .project_mtc, .project_bindec
+{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.spacing
+{
+	margin-top: 250px;
+}
+
+.footer
+{
+	display: flex;
+	bottom: 0;
+	position: static;
+	height: 65px;
+	z-index: 0;
+	left: 0;
+	background-color: #060a1a;
+	color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: lightgray;
+	font-size: 16px;
+	font-style: normal;
+	font-family: monospace;
+}
