@@ -34,15 +34,16 @@ a
 		gap: 30px !important;
 		display:flex !important;
 		justify-content: space-around !important;
-		padding: 15px;
+		padding: 17px;
 	}
 
 	.right_sideH
 	{
 		display:flex !important;
-		gap: 10px !important;
+		gap: 5px !important;
 		justify-content: space-around !important;
 		padding: 2px;
+		background-color: blue;
 	}
 
 .logo img
@@ -52,7 +53,7 @@ a
     align-self: center !important; 
 	  justify-content: center !important;
 	  gap: 10px !important;
-       padding: 25px;
+	  padding: 25px;
 }
 
 .link4{
