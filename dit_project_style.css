@@ -34,15 +34,15 @@ a
 		gap: 30px !important;
 		display:flex !important;
 		justify-content: space-around !important;
-		padding: 22px;
+		padding: 10px;
 	}
 
 	.right_sideH
 	{
 		display:flex !important;
-		gap: 20px !important;
+		gap: 13px !important;
 		justify-content: space-around !important;
-		padding: 5px;
+		padding: 2px;
 	}
 
 .logo img
