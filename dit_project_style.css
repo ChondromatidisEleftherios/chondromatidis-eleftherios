@@ -40,7 +40,7 @@ a
 	.right_sideH
 	{
 		display:flex !important;
-		gap: 4px !important;
+		gap: 13px !important;
 		justify-content: space-around !important;
 		padding: 2px;
 	}
