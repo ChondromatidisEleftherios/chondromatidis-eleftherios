@@ -1,34 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
-@media (max-width: 768px) {
+@media (max-width: 912px) {
 .container {
-      display: flex;
-	   flex-direction: column-reverse;
-	   height:auto;
-	   flex-direction: row;
-	   opacity: 90% !important;
-   
+	display: flex !important;
+	background-color: #1fb588 !important;
+	top:0 !important;
+	position: sticky !important;
+	height: 90px !important;
+	justify-content: space-around !important;
+	align-items: center !important;
+	text-align: center !important;
+	opacity: 97% !important;
+	z-index: 1 !important;
+	max-width: 1000px !important;
 }
 
 a 
 {
-     font-size:26px !important;
-	   display: flex;
+     font-size:20px !important;
+	   display: flex !important;
+}
+
+.title_of_jscalculator
+{
+	margin-top: 300px !important;
+	text-align: center !important;
+	font-size: 38px !important;
+	font-family: 'jersey 10' !important;
 }
 	
-.left_sideH, .right_sideH
+.left_sideH
 	{
-		gap: 12px !important;
+		gap: 30px !important;
+		display:flex !important;
+		justify-content: space-around !important;
+		padding: 10px;
 	}
 
-.logo 
+	.right_sideH
+	{
+		display:flex !important;
+		gap: 15px !important;
+		justify-content: space-around !important;
+		padding: 3px;
+	}
+
+.logo img
 {
-	     display: flex;
-	     height: 56px;
-      align-self: center; 
-	   justify-content: center;
+	  display: flex !important;
+	  height: 45px !important;
+    align-self: center !important; 
+	  justify-content: center !important;
+	  gap: 7px !important;
+}
+
+.link4{
+  background-color: #1fb588;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px !important;
+  padding: 1px;
+}
+
+.links_down
+{
+	font-size: 15px !important;
+}
+
+.links_dr
+{
+	position: relative !important; 
+  display: inline-block !important; 
+}
+
+.links_down {
+  display: none !important;
+  position: absolute !important;
+  background-color: #179669 !important;
+  min-width: 160px !important;
+  z-index: 1 !important;
+  left: 50% !important; 
+  transform: translateX(-50%) !important; 
+  top: 100% !important; 
+  min-width: 60px !important;
+  text-align: center !important;
+}
+
+
+.links_down a {
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+  text-align: center !important;
+  align-self: center !important;
+  padding: 13px 4px !important;
+}
+
+.links_down a:hover {background-color: black} 
+
+.links_dr:hover .links_down {
+  display: block !important;
+}
+
+body
+{
+	margin:0px !important;
+	background-image: linear-gradient(#1fb580,teal,#060a1a);
+	color:white;
+	font-family: 'jersey 10';
+}
+
+p, ul
+{
+	font-size: 16px !important;
+}
+
+.descsc p
+{
+	display: flex !important;
+	justify-content: center !important;
+	margin-top: 60px !important;
+}
+.lists 
+{
+	text-align: center !important;
+}
+
+ul.lis 
+{
+	display: inline-block !important;
+  text-align: left !important;
+}
+
+.showcases img, .main_image img
+{
+	display: flex !important;
+	height: 280px !important;
+	width: 240px !important;
+	border: 5px solid #1fb588 !important;
+}
+
+.descs p
+{
+	display: flex !important;
+	justify-content: center !important;
+	margin-top: 70px !important;
+	width: 300px !important;
+	text-align: center !important;
+  left: 50% !important;
+  position: relative !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.linkt a
+{
+	margin-top: 5px !important;
+	font-size: 16px !important;
+  position: relative !important;
+  display: inline !important;
+}
+
+.jc_container2
+{
+	display: flex;
+	justify-content: space-around !important;
+	align-items: flex-start !important;
+	margin-top: 50px !important;
+	font-size: 60px !important;
+}
+
+.jc_container1
+{
+	margin-top: 570px !important;
+	margin-left: 0px !important;
+}
+
+
+.footer
+{
+	display: flex;
+	bottom: 0;
+	position: static;
+	height: 55px !important;
+	z-index: 0;
+	left: 0;
+	background-color: #060a1a;
+	color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: lightgray;
+	font-size: 10px !important;
+	font-style: normal;
+	font-family: monospace;
 }
 }
+
+
+
+
+
+
+
+
 
 
 
