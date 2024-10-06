@@ -34,15 +34,15 @@ a
 		gap: 30px !important;
 		display:flex !important;
 		justify-content: space-around !important;
-		padding: 18px;
+		padding: 10px;
 	}
 
 	.right_sideH
 	{
 		display:flex !important;
-		gap: 13px !important;
+		gap: 15px !important;
 		justify-content: space-around !important;
-		padding: 2px;
+		padding: 3px;
 	}
 
 .logo img
@@ -51,8 +51,7 @@ a
 	  height: 45px !important;
     align-self: center !important; 
 	  justify-content: center !important;
-	  gap: 10px !important;
-	  padding: 25px;
+	  gap: 7px !important;
 }
 
 .link4{
@@ -61,7 +60,7 @@ a
   border: none;
   cursor: pointer;
   font-size: 20px !important;
-  padding: 0px !important;
+  padding: 1px;
 }
 
 .links_down
