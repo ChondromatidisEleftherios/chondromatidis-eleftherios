@@ -10,7 +10,7 @@ function typeWriter() {
   if ((x < txt.length)) {
     document.querySelector(".title_of_home").innerHTML += txt.charAt(x);
     x=x+1;
-    setTimeout(typeWriter, 70);
+    setTimeout(typeWriter, 40);
   }
 }
 
